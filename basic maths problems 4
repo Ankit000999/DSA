@@ -1,0 +1,24 @@
+/*Extend the program to count the number of odd and even
+digits separately in a positive integer.*/
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    int a;
+    cin>>a;
+    int evencount;
+    int oddcount;
+    while(a>0){ 
+        int k=a%10;
+        if (a%2==0){
+       evencount++;}
+       else {
+           oddcount++;}
+           
+          a=a/10;
+       }
+       
+ cout<<"Numbers of Odd Digits "<< oddcount<<endl;
+ cout<<"Numbers of Even Digits "<< evencount<<endl;
+    
+ return 0;
+}
