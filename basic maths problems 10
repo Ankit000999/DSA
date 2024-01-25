@@ -1,0 +1,28 @@
+/*Largest of Three Numbers: Write a program that takes
+three numbers as input and uses if-elsestatements to
+determine and print the largest among them*/
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int k;
+    cin>>k;
+   
+    int n;
+    cin>>n;
+    
+    int a;
+    cin>>a;
+
+if(k>=a && k>=n){
+    cout<< k<<" k is the largest number."<< endl;
+} 
+if  (n>=a && n>=k){
+    cout << n <<" n is the largest number."<< endl;
+} 
+   if  (a>=k && a>=n){
+     cout<<a<<" a is the largest number."<< endl;
+}
+
+ return 0;   
+}
