@@ -1,0 +1,16 @@
+/* find the sum of the series */
+
+#include <iostream>
+using namespace std;
+
+int main() {
+int a, n, d;
+cin>>a>>n>>d;
+// int x;
+// x=a+(n-1)*d;
+  int y;
+  y=n/2*(2*a+(n-1)*d);
+  cout << y;
+  
+	return 0;
+}
