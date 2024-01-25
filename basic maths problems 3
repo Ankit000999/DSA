@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+   int k;
+   cin>>k;
+   int p=0;
+
+while(k>0){
+    int number=k%10;
+
+  p=p+number;
+    k=k/10;
+}
+    cout<<p<<" is the sum of given number";
+
+return 0;
+}
