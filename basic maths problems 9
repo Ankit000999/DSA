@@ -1,0 +1,23 @@
+/*Positive, Negative, or Zero: Design a
+program that takes a number as input and uses 
+if-else statements to determine whether the 
+number is positive, negative, or zero.*/
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+     int k;
+    cin>>k;
+   
+  
+if(k>0){
+    cout<< k<<"  is the poistive number ."<< endl;
+} 
+ else if  (k<0){
+    cout << k <<" is the negative number."<< endl;
+} 
+   else  {
+     cout<<"   The number is zero."<< endl;
+}
+    
+    return 0;
+}
