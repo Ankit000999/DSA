@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int a;
+    cin>>a;
+   
+    int revnum = 0;
+    int dup=a;
+   
+    while (a>0){
+       int ld=a%10;
+       
+        revnum= (revnum*10)+ld;
+        a=a/10;
+    }
+    if(dup==revnum)
+        cout<<"Given number is a palindrone.";
+     
+        else 
+            cout <<"Given number is not a palindrone."; 
+    return 0;
+}
