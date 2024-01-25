@@ -1,0 +1,13 @@
+//Write a program to print the multiplication table of a given number n.
+
+#include <bits/stdc++.h>
+using namespace std;
+int main() { 
+    int n;
+    cin>>n;
+for (int x=1;x<=10; x++ ){ 
+    cout<<n*x<<endl;
+}
+
+return 0;
+}
