@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Declare variable to store the input number
+    int n;
+    // Prompt user for input
+    cin >> n;
+
+    // Initialize a variable to store the factorial, starting with 1
+    long long int answer = 1;
+
+    // Loop to calculate the factorial
+    for (int i = 1; i <= n; i++) {
+        // Multiply the current answer by the loop variable
+        answer = answer * i;
+    }
+
+    // Output the factorial of the input number
+    cout << answer;
+
+    // Return 0 to indicate successful completion
+    return 0;
+}
