@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int n;
+cin>>n;
+if (n<18){
+    cout <<"not eligilible";
+}
+
+if (n>=18 && n<=57){
+    cout<<"eliglible";
+}
+
+if   (n>57){
+    cout <<"retirement time";
+}
+	return 0;
+}
