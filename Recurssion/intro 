@@ -1,0 +1,21 @@
+//recursion
+
+#include<bits/stdc++.h>
+using namespace std;
+
+
+void recur(int i,int n) {
+    if(i==n) return;
+    cout << i << endl;
+    i++;
+    recur(i,n);
+}
+
+int main(){
+   int n;
+   cin>>n;
+   int i=0;
+   recur( i, n);
+    return 0;
+}
+
