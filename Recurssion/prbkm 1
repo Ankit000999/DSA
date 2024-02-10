@@ -1,0 +1,22 @@
+//recursiom 
+// Q:-printing name by recursion
+
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+
+ void f(int i,int n) {
+    if(i>n) return;
+    cout << "Ankit" << endl;
+    i++;
+    f(i++,n);
+}
+int main() {
+    int n;
+    cin>>n;
+    f(1,n);
+    
+	return 0;
+}
