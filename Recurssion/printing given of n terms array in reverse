@@ -1,0 +1,26 @@
+// printing given of n terms array in reverse 
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int fxn(int arr[], int left, int right )
+{
+    if (left >=right)
+    return 0;
+    
+    swap( arr[left] , arr[right] );
+    fxn(arr, left +1, right -1) ;
+}
+
+int main(){
+    int n=5;
+int arr[5]={1,2,3,4,5};
+fxn(arr,0,n-1);
+
+for(int i=0;i<n;i++){
+    cout<<arr[i]<<" ";
+}
+
+cout<<endl;
+return 0;
+}
