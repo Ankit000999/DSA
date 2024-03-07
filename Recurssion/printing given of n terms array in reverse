@@ -1,4 +1,4 @@
-// printing given of n terms array in reverse 
+// printing the given of n terms array in reverse 
 
 #include <bits/stdc++.h>
 using namespace std;
