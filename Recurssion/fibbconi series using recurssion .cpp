@@ -17,4 +17,5 @@ int main(){
     return 0;
 }
 
-//time complexcity of the given code will be the (2^n)
+//time complexcity of the given code will be the (2^n).
+//And time complexcity is expontential in nature .
